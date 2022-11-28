@@ -1,0 +1,1 @@
+const options = [ "rock", "scissors", "paper" ];
