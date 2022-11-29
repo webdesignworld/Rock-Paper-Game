@@ -3,5 +3,5 @@ if(myGame =="Yes"){
         alert("Lets's GO");
 }else{
         alert("Bye!");
-}
+   }
 
