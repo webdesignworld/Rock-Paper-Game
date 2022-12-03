@@ -1,5 +1,7 @@
 function gamePress() {   
-    let game = prompt("Do you want to play?🎲 Yes or No").toLowerCase().trim();
+    let game = prompt("Do you want to play?🎲 Yes or No");
+    newGame = game.trim();
+    newGame = newGame.toLowerCase();
     alert(newGame);
 if (newGame == 'yes') { 
     alert("ОK, lets play!") + playRound();
