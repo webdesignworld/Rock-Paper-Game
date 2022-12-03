@@ -1,1 +1,1 @@
-# Rock-Paper-Game https://github.com/webdesignworld/Rock-Paper-Game.git
+# Rock-Paper-Game https://webdesignworld.github.io/Rock-Paper-Game/
