@@ -22,7 +22,7 @@ if (player == "scissors") {
 } else if (player == "rock") { 
   alert("You picked rock!💎");
 } else if (player == null) {exit();
-} else {alert("Wrong, enter a number from 1 to 3") + playerSelection();
+} else {alert("Wrong entry, please try again") + playerSelection();
 };
   return player; 
 
