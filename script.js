@@ -1,7 +1,5 @@
 function gamePress() {   
-    let game = prompt("Do you want to play?🎲 Yes or No");
-    newGame = game.trim(); 
-    newGame = newGame.toLowerCase(); 
+    let game = prompt("Do you want to play?🎲 Yes or No").toLowerCase().trim();
     alert(newGame);
 if (newGame == 'yes') { 
     alert("ОK, lets play!") + playRound();
@@ -14,7 +12,7 @@ if (newGame == 'yes') {
    
 function playRound(playerSelection,computerSelection) {
     function playerSelection() {
-        let player = prompt("Please enter a number 1(scissors✂️), 2(paper📜) or 3(rock💎)");
+        let player = prompt("Please enter a number 1(scissors✂️), 2(paper📜) or 3(rock💎)").toLowerCase().trim();
 if (player == 1) { 
     alert("You picked scissors!✂️");
 } else if (player == 2) {
