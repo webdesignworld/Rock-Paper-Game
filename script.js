@@ -70,7 +70,7 @@ function play5(){
 
     let i=1;
     while (1<=5){
-        alert(`Game ${1}`);
+        alert(`Game ${i}`);
         playRound();
         i++;
     }
